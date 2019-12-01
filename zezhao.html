@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(".contenting .img_content").mouseover(function(){
+            $(".img_content .mask").show();
+        });
+        $(".contenting .img_content").mouseout(function(){
+            $(".img_content .mask").hide();
+        });
+    });
+
+    </script>
+</head>
+<body>
+    <div class="contenting">
+        <span class="img_content">
+            <img src="c:/Users/qfj/Desktop/练习/images/img-b289165a3d660a06c093762edec760cc.jpg" alt="">
+            <span class="mask">王维娜过无那过无无无无无无无无</span>
+        </span>
+    </div>
+</body>
+</html>
